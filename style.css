@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_div{
+    display: flex;
+    background-color: aquamarine;
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondHidden{
+    display: none;
+}
+
+
+.userFollow{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Follower{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userImg{
+    width: 50%;
+    border-radius: 5px;
+}
+.userDetails{
+    font-size: 15px;
+    text-align: center;
+
+}
+.userName{
+    font-size: 2rem;
+}
+.repo{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.visitprofile{
+    background-color: black;
+    width: 80%;
+    height: 10%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
